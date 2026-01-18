@@ -1,0 +1,124 @@
+{
+  "financial_fraud_keywords": {
+    "otp": 40,
+    "one time password": 40,
+    "kyc": 35,
+    "verify": 25,
+    "account": 20,
+    "bank": 25,
+    "upi": 30,
+    "transaction": 25,
+    "refund": 25,
+    "reversal": 25,
+    "credited": 20,
+    "debited": 20,
+    "limit": 20,
+    "card": 25,
+    "atm": 25
+  },
+
+  "impersonation_keywords": {
+    "customer care": 40,
+    "support team": 35,
+    "relationship manager": 40,
+    "bank officer": 45,
+    "income tax": 40,
+    "govt": 35,
+    "government": 35,
+    "police": 45,
+    "customs": 40
+  },
+
+  "urgency_threat_keywords": {
+    "urgent": 30,
+    "immediately": 30,
+    "within": 20,
+    "now": 15,
+    "today": 15,
+    "blocked": 40,
+    "suspended": 40,
+    "deactivated": 40,
+    "will be blocked": 45,
+    "legal action": 45,
+    "penalty": 40
+  },
+
+  "reward_lottery_keywords": {
+    "lottery": 50,
+    "winner": 50,
+    "won": 45,
+    "prize": 45,
+    "congratulations": 35,
+    "reward": 30,
+    "free": 25,
+    "gift": 30,
+    "voucher": 35
+  },
+
+  "job_scam_keywords": {
+    "work from home": 40,
+    "part time": 30,
+    "daily income": 45,
+    "earn": 30,
+    "salary": 25,
+    "registration fee": 50,
+    "task": 25,
+    "payment proof": 35,
+    "joining fee": 50
+  },
+
+  "investment_crypto_keywords": {
+    "investment": 30,
+    "guaranteed return": 50,
+    "profit": 25,
+    "double money": 50,
+    "crypto": 30,
+    "bitcoin": 30,
+    "trading": 25,
+    "forex": 35,
+    "stock tips": 40
+  },
+
+  "adult_scam_keywords": {
+    "adult": 55,
+    "private": 30,
+    "exclusive": 35,
+    "video": 25,
+    "chat": 20,
+    "dating": 30,
+    "girls": 35,
+    "meet tonight": 45
+  },
+
+  "link_patterns": {
+    "http://": 35,
+    "https://": 35,
+    ".xyz": 25,
+    ".top": 25,
+    ".loan": 30,
+    ".online": 20,
+    ".click": 30,
+    ".live": 20,
+    ".ru": 35
+  },
+
+  "payment_request_patterns": {
+    "pay": 20,
+    "send money": 40,
+    "scan qr": 45,
+    "upi id": 35,
+    "transfer": 30,
+    "deposit": 30
+  },
+
+  "safe_keywords": {
+    "meeting": -20,
+    "lunch": -20,
+    "dinner": -20,
+    "bro": -15,
+    "mom": -30,
+    "dad": -30,
+    "home": -15,
+    "call me": -15
+  }
+}
